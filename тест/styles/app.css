@@ -1,0 +1,107 @@
+@font-face {
+	font-family: PerfectDOSVGA437;
+	src: url('19888.ttf');
+}
+body, html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 18px;
+	font-family: PerfectDOSVGA437;
+	color: #111;
+}
+#ha {
+	width: 100%;
+	display: block;
+}
+#img {
+	width: 70%;
+}
+.wrapper 
+{
+	
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+
+.main
+{
+	width: 75%;
+	height: 100%;
+	margin-left: 20%;
+	margin-top: 5%;
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.quiz-frame
+{
+	border: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.quiz__head
+{
+	
+	font-size: 20pt;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.head__content 
+{
+	
+	width: 70%;
+	
+}
+#head {
+	text-align: center;
+}
+
+.quiz__body
+{
+	margin: 10px;
+}
+
+.quiz__footer 
+{
+	bottom: 0;
+	display: block;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.footer__content 
+{
+	padding: 5px;
+}
+
+.button
+{
+	border: 0;
+	border-radius: 10px;
+	background-image: url(батон.jpg);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+
+	padding: 10px 25px;
+	width: 40%;
+	height: 100%;
+	font-size: 15pt;
+	font-family: PerfectDOSVGA437;
+	color: rgb(247, 240, 240);
+	display: block;
+	margin: 3px;
+	margin-left: 25%;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+
